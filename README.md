@@ -9,7 +9,7 @@ We've provided all the data for this challenge in `data/raman_data.csv` and a ju
 
 The data is formatted as follows: Each of the rows represents the Raman spectra of one cell as well as its labeled condition. You can think of these condition labels as cell states. Each of the columns are either a Raman feature, a cell label, or other cellular metadata. The Raman features are called wavenumbers.
 
-To complete this challenge, please provide a detailed analysis of this data and use machine learning methods to draw scientific conclusions.  We encourage you to spend no more than 6 hours completing this challenge.
+To complete this challenge, please provide a detailed analysis of this data and use machine learning methods to draw scientific conclusions.  We encourage you to spend **no more than 6 hours** completing this challenge.
 
 **Please include your main findings in the provided jupyter notebook and make sure to address each of these points:**
 - Load and pre-process the spectral data provided (see `data/raman_data.csv`)
