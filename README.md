@@ -1,4 +1,4 @@
-# raman_classifier_challenge
+# Raman Classifier Challenge
 
 ### Challenge Description:
 Thank you for your interest in this challenge! Classifying cells by their cell type and cell state is very pertinent to our lab's work on the [Human Cell Atlas project](https://www.humancellatlas.org/). With the advent of [single-cell sequencing technology](https://en.wikipedia.org/wiki/Single_cell_sequencing) over the past decade, this task has become more feasible than ever before.  Individual cells have a variety of features that determine what *type* of cell they are (e.g. liver cell, brain cell) and also what *state* they're in (e.g. healthy cell, cell under stress, etc.)
