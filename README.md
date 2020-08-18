@@ -1,6 +1,8 @@
-**[INSERT BROAD LOGO]**  **[INSERT KCO LOGO]**
+<img src="images/broad_logo.png" width="450"/>  <img src="images/klarman_logo.png" width="450"/>
 # The KCO Machine Learning Challenge 2020
-**[INSERT Koseki cool PIC]**
+
+<img src="images/rainbow.png" width="450"/>
+
 ## Cell classification using Raman spectroscopy
 
 
