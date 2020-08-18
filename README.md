@@ -5,17 +5,16 @@
 
 
 ### Introduction
-Thank you for your interest in our machine learning challenge! In this challenge, you will build a model for classifing cells exposed to different nutrient concentrations. Individual cells exhibit a variety of features: some them determine the *cell type* (*e.g.* liver cells are different than brain cells); some others, determine the *cell state* (*e.g.* are cells exposed to high concentration of nutrients or are they starving?). Leveraging AI models to determine the cell state is an essential problem for the construction of a [Human Cell Atlas project](https://www.humancellatlas.org/), which among the main interests of our lab. 
+Thank you for your interest in our machine learning challenge! In this challenge, you will build a model for classifing cells exposed to different nutrient concentrations. Individual cells exhibit a variety of features: some of them determine the *cell type* (*e.g.* liver cells are different than brain cells); some others determine the *cell state* (*e.g.* are cells exposed to high concentration of nutrients or are they starving?). Leveraging AI models to determine the cell state is an essential problem for the construction of a [Human Cell Atlas project](https://www.humancellatlas.org/), which is among the main interests of our lab. 
 
 The purpose of this challenge is to pre-screen candidates for a COOP internship at the Klarman Cell Observatory. We sincerely hope you will join us!
 
 ### Challenge Description
-**[ADD FIGURE WITH TUBES WITH NUTRIENT]**
+Your model will classify E. coli bacteria by their cell state. For this challenge, the E. coli have been divided into 5 different groups of varying concentration of the nutrient [cAMP](https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate). Changing the amount of the nutrient will change how other genes are regulated in each cell, putting the five groups into five cell states.
 
-**[EXPLAIN CELLS EXPOSED TO DIFFERENT CONCENTRATION]**
+<img src="images/ecoli_states.png" width="450"/>
 
-**[EXPLAIN OUTPUT IN TERMS OF RAMAN]**
- by looking at [Raman spectroscopy](https://en.wikipedia.org/wiki/Raman_spectroscopy) data (Raman is pronounced *Rah-mon*)
+We'd like to better understand whether spectroscopic features can be used to determine an E. coli cell's state. For this challenge, you will look at [Raman spectroscopy](https://en.wikipedia.org/wiki/Raman_spectroscopy) data (Raman is pronounced *Rah-mon*) as features to predict a cell's nutrient exposure.
  
 
 ### Data structure
