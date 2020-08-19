@@ -1,4 +1,4 @@
-<img src="images/broad_logo.png" width="300"/>  <img src="images/klarman_logo.png" width="350"/>
+<img src="images/broad_logo.png" width="300"/> 
 # The KCO Machine Learning Challenge 2020
 
 <img src="images/rainbow.png" width="250"/>
@@ -14,7 +14,7 @@ The purpose of this challenge is to pre-screen candidates for a COOP internship 
 ### Challenge Description
 Your model will classify E. coli bacteria by their cell state. For this challenge, the E. coli have been divided into 5 different groups of varying concentration of the nutrient [cAMP](https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate). Changing the amount of the nutrient will change how other genes are regulated in each cell, putting the five groups into five cell states.
 
-<img src="images/ecoli_states.png" width="200"/>
+<img src="images/ecoli_states.png" width="300"/>
 
 We'd like to better understand whether spectroscopic features can be used to determine an E. coli cell's state. For this challenge, you will look at [Raman spectroscopy](https://en.wikipedia.org/wiki/Raman_spectroscopy) data (Raman is pronounced *Rah-mon*) as features to predict a cell's nutrient exposure.
  
