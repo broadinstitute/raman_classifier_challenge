@@ -27,6 +27,7 @@ The data is formatted as follows:
 - Each of the 223 rows represents the Raman spectra of one cell as well as its labelled condition. You can think of these condition labels as cell states. 
 - Each of the columns are either one of the Raman features or the label. In this experiment, there are 1286 Raman features. The Raman features are denoted by wavenumber and the column names correspond to wavenumber values. 
 - Each spectrum captures strongest biological signal within the fingerprint region. In this experiment, the fingerprint region is the part of the spectrum which is below 1800 cm-1 . 
+- The label names dcyaA 0mM, dcyaA 0.1mM, dcyaA 0.5mM, dcyaA 1mM are mutants of the WT(wild type) that have varying concentrations of cAMP. 
 
 To complete this challenge, please provide a detailed analysis of this data and use machine learning methods to draw scientific conclusions.
 
