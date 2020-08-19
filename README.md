@@ -1,4 +1,4 @@
-<img src="images/broad_logo.png" width="450"/>  <img src="images/klarman_logo.png" width="350"/>
+<img src="images/broad_logo.png" width="300"/>  <img src="images/klarman_logo.png" width="350"/>
 # The KCO Machine Learning Challenge 2020
 
 <img src="images/rainbow.png" width="250"/>
