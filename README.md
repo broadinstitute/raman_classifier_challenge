@@ -13,7 +13,7 @@ Thank you for your interest in our machine learning challenge! In this challenge
 The purpose of this challenge is to pre-screen candidates for a COOP internship at the Klarman Cell Observatory. We sincerely hope you will join us!
 
 ### Challenge Description
-You will code a machine learning model to classify *E. coli* bacteria from their Raman spectra. The bacteria have been divided into 5 different groups of varying concentration of the nutrient [cAMP](https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate). Changing the amount of the nutrient will change how  genes are expressed in each cell, putting the five groups into five different cell states. For each condition, we obtained the [Raman spectra](https://en.wikipedia.org/wiki/Raman_spectroscopy) (Raman is pronounced *Rah-mon*) from single bacterial cells: your goal is to determine whether the five groups can be distinguished using Raman spectra.
+You will code a machine learning model to classify *E. coli* bacteria from their Raman spectra. The bacteria have been divided into 4 different groups of varying concentration of the nutrient [cAMP](https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate). Changing the amount of the nutrient will change how  genes are expressed in each cell, putting the four groups into four different cell states. For each condition, we obtained the [Raman spectra](https://en.wikipedia.org/wiki/Raman_spectroscopy) (Raman is pronounced *Rah-mon*) from single bacterial cells: your goal is to determine whether the four groups can be distinguished using Raman spectra.
 
 <img src="images/ecoli_states.png" width="300"/>
  
