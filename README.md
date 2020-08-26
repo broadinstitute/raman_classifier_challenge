@@ -22,7 +22,7 @@ You will code a machine learning model to classify *E. coli* bacteria from their
 We have provided the data for this challenge in `data/raman_data.csv`.
 
 The data is formatted as follows:
-- Each of the 223 rows contains the group (field `condition` - these are the labels) and Raman spectra of a cell (second column onward - these are the features). 
+- Each of the 178 rows contains the group (field `condition` - these are the labels) and Raman spectra of a cell (second column onward - these are the features). 
 - In each row there are 1286 Raman features that are ordered (the column names correspond to each measured wavelength). 
 - The label names are $0mM$, $0.1mM$, $0.5mM$, $1mM$ and refer to nutrient concentration (_ie_ $1mM$ means that cells are exposed to more nutrient than $0.5mM$). 
 
