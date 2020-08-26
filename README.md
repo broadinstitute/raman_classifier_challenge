@@ -10,7 +10,7 @@
 ### Introduction
 Thank you for your interest in our machine learning challenge! In this challenge, you will build a model for classifing cells exposed to different nutrient concentrations. Individual cells exhibit a variety of features: some of them determine the *cell type* (*e.g.* liver cells are different than brain cells); some others determine the *cell state* (*e.g.* are cells exposed to high concentration of nutrients or are they starving?). Leveraging AI models to determine the cell state is an essential problem for the construction of a [Human Cell Atlas project](https://www.humancellatlas.org/), which is among the main interests of our lab. 
 
-The purpose of this challenge is to pre-screen candidates for a COOP internship at the Klarman Cell Observatory. We sincerely hope you will join us!
+The purpose of this challenge is to pre-screen candidates for a Fall research internship at the Klarman Cell Observatory. We sincerely hope you will join us!
 
 ### Challenge Description
 You will code a machine learning model to classify *E. coli* bacteria from their Raman spectra. The bacteria have been divided into 4 different groups of varying concentration of the nutrient [cAMP](https://en.wikipedia.org/wiki/Cyclic_adenosine_monophosphate). Changing the amount of the nutrient will change how  genes are expressed in each cell, putting the four groups into four different cell states. For each condition, we obtained the [Raman spectra](https://en.wikipedia.org/wiki/Raman_spectroscopy) (Raman is pronounced *Rah-mon*) from single bacterial cells: your goal is to determine whether the four groups can be distinguished using Raman spectra.
