@@ -57,4 +57,4 @@ Consider the following points in your analysis:
 
 When you're finished, please place this notebook and any other code you wrote into a zipped folder and e-mail to Tommaso Biancalani <tbiancal@broadinstitute.org>. 
 
-This challenge has been created by Tommaso Biancalani, Shreya Gaddam, Taylor James-Sorenson, and Koseki Kobayashi-Kirschvink.
+**This challenge was created by Tommaso Biancalani, Shreya Gaddam, Taylor James-Sorenson, and Koseki Kobayashi-Kirschvink**
