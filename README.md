@@ -24,7 +24,7 @@ We have provided the data for this challenge in `data/raman_data.csv`.
 The data is formatted as follows:
 - Each of the 223 rows contains the group (field `condition` - these are the labels) and Raman spectra of a cell (second column onward - these are the features). 
 - In each row there are 1286 Raman features that are ordered (the column names correspond to each measured wavelength). 
-- The label names are $0mM$, $0.1mM$, $0.5mM$, $1mM$ and refer to nutrient concentration (_ie_ $1mM$ means that cells are exposed to more nutrient than $0.5mM$). 
+- The label names are `0mM`, `0.1mM`, `0.5mM`, `1mM` and refer to nutrient concentration (_ie_ `1mM` means that cells are exposed to more nutrient than `0.5mM`). 
 
 <img src="images/raman.png" width="250"/>
 
@@ -36,7 +36,7 @@ Consider the following points in your analysis:
 - Load the data from`data/raman_data.csv`. Choose a way to visualize the dataset and describe it.
 - Pre-process the data:
     - Some Raman features possess outliers: can you remove them?
-    - Only a subset of Raman features are biologically relevant: those whose wavelengths are in between $800 cm^{-1}$ and $1800 cm^{-1}$. Please restrict your analysis to those features.
+    - Only a subset of Raman features are biologically relevant: those whose wavelengths are in between 800 cm^-1 and 1800 cm^-1$. Please restrict your analysis to those features.
     - Make sure you standardize your data (_ie_ zero mean, unit variance) if you use a machine learning model that requires it.
 - Train a classifier that predicts the `condition` given as input the Raman features.
     - You can use a simple model from an existing library such as sklearn.
@@ -49,10 +49,12 @@ Consider the following points in your analysis:
 - Interpret why the classifier is making decisions.
     - Can you analyze the feature importance? (_ie_ which wavelength is more relevant for classification purposes).
 - Build a pairwise classifier (as opposed to the multi-class of the previous point):
-    - Build a classifier that distinguishes between _pairs_ of conditions (_eg_ $0mM$ vs $1mM$). 
+    - Build a classifier that distinguishes between _pairs_ of conditions (_eg_ `0mM` vs `1mM`). 
     - Quantify how well the classifier distinguishes each pair: is it easier for the model to distinguish between two similar, or different, nutrient concentrations?
     - Produce a figure that shows your findings.
 - Clearly state your scientifically-sound conclusions based on the results and visuals.
 
 
 When you're finished, please place this notebook and any other code you wrote into a zipped folder and e-mail to Tommaso Biancalani <tbiancal@broadinstitute.org>. 
+
+This challenge has been created by Tommaso Biancalani, Shreya Gaddam, Taylor James-Sorenson, and Koseki Kobayashi-Kirschvink.
