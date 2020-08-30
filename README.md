@@ -26,8 +26,6 @@ The data is formatted as follows:
 - Therefore, each row contains 1286 ordered features (the column names correspond to each measured wavelength). 
 - The label names are `0mM`, `0.1mM`, `0.5mM`, `1mM` and refer to nutrient concentration (_ie_ `1mM` means that cells are exposed to more nutrient than `0.5mM`). 
 
-<img src="images/raman.png" width="250"/>
-
 ### Your submission
 **Please submit a Jupyter notebook by Sep 10. The notebook should include a detailed analysis of our data, the machine learning methods you used and your scientific conclusions.**
 
